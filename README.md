@@ -43,11 +43,11 @@ Final mAP = 0.5*(audio2video) + 0.5*(video2audio)
 
 ## Getting Started
 ### Downloading the dataset
-1. Complete dataset can be downloaded from this [link](https://drive.google.com/drive/folders/1C5c8K0ZkPhzz-RX1qkPgkGejAssSA72v). 
-2. Keep the downloaded files in the [```Dataset```](/Datasets) directory as mentioned above.
+1. Complete dataset can be downloaded from this [link](https://drive.google.com/drive/folders/1rBEf_T1YUZo1NDCez_oypF5JktJSyTrE). 
+2. Keep the downloaded files in the [```Dataset```](https://github.com/ICVGIP-Challenge/SpeciesDetection-Challenge2021/tree/main/Dataset) directory as mentioned above.
 
 ### Running the baselines
-Go to the [```Baselines/YOLOv5```](/Baselines/YOLOv5) or [```Baselines/Faster-RCNN```](/Baselines/Faster-RCNN) sub-directories to get a detailed description to run the respective baseline model.
+Go to the [```Baselines/YOLOv5```](https://github.com/ICVGIP-Challenge/SpeciesDetection-Challenge2021/tree/main/Baselines/YOLOv5) or [```Baselines/Faster-RCNN```](https://github.com/ICVGIP-Challenge/SpeciesDetection-Challenge2021/tree/main/Baselines/Faster-RCNN) sub-directories to get a detailed description to run the respective baseline model.
 
 ## Submission
 Submit a ***txt*** file with each row specifying the class label index of the ***retrieval results sorted in decreasing order of similarity.***

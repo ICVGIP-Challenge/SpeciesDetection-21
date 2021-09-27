@@ -49,4 +49,4 @@ ClassAverage mAP will be used as the evaluation metric. Each classification exam
 Go to the [```Baselines/YOLOv5```](https://github.com/ICVGIP-Challenge/SpeciesDetection-Challenge2021/tree/main/Baselines/YOLOv5) or [```Baselines/Faster-RCNN```](https://github.com/ICVGIP-Challenge/SpeciesDetection-Challenge2021/tree/main/Baselines/Faster-RCNN) sub-directories to get a detailed description to run the respective baseline model.
 
 ## Submission
-Submit a ***txt*** file with each row specifying the class label index of the ***retrieval results sorted in decreasing order of similarity.***
+Submit a .txt file with each row specifying the class label index of the species.

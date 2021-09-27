@@ -10,10 +10,12 @@ The wildlife conservation organizations and governments across the globe have de
    - YOLOv5
    - Faster-RCNN
 - **Dataset:** Contains the dataset
-   - train_images
-   - val_images
-   - train_labels
-   - val_labels
+   - images
+      - train
+      - validation
+   - labels
+      - train.json
+      - validation.json
 
 ## Dataset Statistics
 The dataset consists of 11,141 train samples and 1,586 validation samples. The label distribution in a particular set is essentially non-uniform. A category wise frequency distribution is shown in the chart below:

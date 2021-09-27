@@ -1,0 +1,30 @@
+# Path to train and validation images
+train: ../../dataset/images/train/
+val: ../../dataset/images/validation/
+
+# Classes
+nc: 20  # number of classes
+
+names:
+  [
+    'empty',
+    'fox',
+    'skunk',
+    'rodent',
+    'bird',
+    'american crow',
+    'american black bear',
+    'chicken',
+    'virginia opossum',
+    'domestic cat',
+    'grey fox',
+    'rooster',
+    'donkey',
+    'raven',
+    'petrel_chick',
+    'goat',
+    'pig',
+    'shearwater',
+    'iguana',
+    'cat'
+  ]

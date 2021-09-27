@@ -2,7 +2,7 @@
 ## Problem Description
 The wildlife conservation organizations and governments across the globe have dedicated resources and developed policies to ensure continued biodiversity on our planet. Population monitoring is critical to wildlife conservation. The advancements in the last decade in the computer vision field have shown scope in assisting the conservation efforts as we are able to collect large datasets from camera traps. The aim of this task is to detect species in camera trap images and develop robust systems that can generalize well to different species and across different geographical locations.
 
-![audio-visual-challenge](https://ci4.googleusercontent.com/proxy/pz5n4yxA_iyZw2JaoSJA5ux6cK6k2u6tYPQuE42YHHx_KAzLBgQL-oVBBisTk9Dbk3r1Ln-pAjUy97WJFV6paxwW2MckmqvBin7Tjy5Io7p-I2pXiGL6E8FIj7aQyhBpXwngqHhpVTnFCTtcaLhQ4eBucqznyf8icn-t28kIWWi9e2FD-NTEOgZSdFdhuzLkVHtylMoeob-c8XoAC67Z=s0-d-e1-ft#https://docs.google.com/drawings/d/e/2PACX-1vQjQYbKg6dZZ5o1Q4U1Ty-FiXGgzXf2sUc_l4IoXHSO7BfUmQXiggbO-6h_4jTeI4EvTvXYOnSoxhpY/pub?w=962&h=540)
+![species-detection-challenge](https://ci4.googleusercontent.com/proxy/pz5n4yxA_iyZw2JaoSJA5ux6cK6k2u6tYPQuE42YHHx_KAzLBgQL-oVBBisTk9Dbk3r1Ln-pAjUy97WJFV6paxwW2MckmqvBin7Tjy5Io7p-I2pXiGL6E8FIj7aQyhBpXwngqHhpVTnFCTtcaLhQ4eBucqznyf8icn-t28kIWWi9e2FD-NTEOgZSdFdhuzLkVHtylMoeob-c8XoAC67Z=s0-d-e1-ft#https://docs.google.com/drawings/d/e/2PACX-1vQjQYbKg6dZZ5o1Q4U1Ty-FiXGgzXf2sUc_l4IoXHSO7BfUmQXiggbO-6h_4jTeI4EvTvXYOnSoxhpY/pub?w=962&h=540)
 
 
 ## Directory structure
@@ -35,11 +35,8 @@ Validation Set Distribution
 *Note: The model will be evaluated on a test set that is not publically available.*
 
 ## Evaluation Metric
-***ClassAverage mAP will be used as the evaluation metric. Each retrieval example will produce an average precision (AP) score. Averageing AP for all the query from a particular class will give the mAP for that class. ClassAverage mAP is then obtained by averaging mAP for all the class. ClassAverage Map can be calculated for both audio to video and video to audio retrieval. The final score will be the average of both of them.***
+ClassAverage mAP will be used as the evaluation metric. Each classification example will produce an average precision (AP) score. Averageing AP for all the instances from a particular class will give the mAP for that class. ClassAverage mAP is then obtained by averaging mAP for all the class. 
 
-```math
-Final mAP = 0.5*(audio2video) + 0.5*(video2audio)
-```
 
 ## Getting Started
 ### Downloading the dataset

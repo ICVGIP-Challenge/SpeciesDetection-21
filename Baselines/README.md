@@ -6,4 +6,4 @@ The given dataset is benchmarked using YOLOv5 and Faster-RCNN. The code and inst
 | Baseline Model | mAP@.5 | mAP@.5:.95 |
 |:--------------:|:------:|:----------:|
 |    YOLOv5      | 0.9271 |   0.7125   |
-|  Faster-RCNN   | - | -  |
+|  Faster-RCNN   | 0.781 |   0.701  |
